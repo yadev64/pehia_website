@@ -1,7 +1,15 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
-      <q-toolbar>
+    <q-header class="bg-transparent">
+      <q-toolbar style="position: absolute; top: 0">
+        <q-img
+          class="q-ml-lg"
+          src="~assets/logo.png"
+          style="height: 70px; width: 200px"
+          fit="contain"
+        ></q-img>
+
+        <q-space></q-space>
         <q-btn
           flat
           dense
@@ -11,9 +19,9 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> Quasar App </q-toolbar-title>
+        <!-- <q-toolbar-title> Quasar App </q-toolbar-title> -->
 
-        <div>Quasar v{{ $q.version }}</div>
+        <!-- <div>Quasar v{{ $q.version }}</div> -->
       </q-toolbar>
     </q-header>
 
