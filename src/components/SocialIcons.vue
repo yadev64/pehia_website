@@ -16,11 +16,11 @@ export default {
 </script>
 <style scoped>
 .iconstyle {
-  color: white;
+  /* color: white; */
   font-size: 30px;
 }
 :hover {
-  color: rgb(0, 255, 81);
+  /* color: rgb(0, 255, 81); */
   font-size: 32px;
 }
 </style>
