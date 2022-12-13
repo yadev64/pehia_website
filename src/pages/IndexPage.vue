@@ -10,7 +10,8 @@
                 Come, dive into our world that’ll build you to embrace your
                 tech-dreams and to sprout your wings.
               </h6>
-              <q-btn color="primary"><b>Join Now</b></q-btn>
+              <q-btn color="primary"><b>Know more</b></q-btn>
+              <social class="q-mt-md"></social>
             </div>
 
             <q-img
@@ -83,9 +84,14 @@
 
 <script>
 import { defineComponent, ref } from "vue";
+import social from "src/components/SocialIcons.vue";
 
 export default defineComponent({
   name: "IndexPage",
+
+  components: {
+    social,
+  },
 
   setup() {
     return {

@@ -67,6 +67,7 @@
             fit="contain"
           ></q-img>
           <q-space />
+          <social class="q-ma-lg"></social>
           <q-icon name="icon"></q-icon>
           <q-btn class="q-ma-lg" dense flat icon="close" v-close-popup>
             <q-tooltip class="bg-white text-primary">Close</q-tooltip>
@@ -105,6 +106,7 @@
 <script>
 import { defineComponent, ref } from "vue";
 import EssentialLink from "components/EssentialLink.vue";
+import social from "src/components/SocialIcons.vue";
 
 const linksList = [
   {
@@ -155,7 +157,7 @@ export default defineComponent({
   name: "MainLayout",
 
   components: {
-    // EssentialLink,
+    social,
   },
 
   setup() {
