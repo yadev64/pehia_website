@@ -16,7 +16,7 @@
           round
           icon="menu"
           aria-label="Menu"
-          @click="toggleLeftDrawer"
+          @click="dialog = true"
         />
 
         <!-- <q-toolbar-title> Quasar App </q-toolbar-title> -->
@@ -49,6 +49,57 @@
       <router-view />
     </q-page-container>
   </q-layout>
+
+  <div>
+    <q-dialog
+      v-model="dialog"
+      persistent
+      :maximized="maximizedToggle"
+      transition-show="slide-left"
+      transition-hide="slide-right"
+    >
+      <q-card class="bg-secondary text-white">
+        <div class="row q-mx-xl">
+          <q-img
+            class="q-ma-lg"
+            src="~assets/logo.png"
+            style="height: 70px; width: 200px"
+            fit="contain"
+          ></q-img>
+          <q-space />
+          <q-icon name="icon"></q-icon>
+          <q-btn class="q-ma-lg" dense flat icon="close" v-close-popup>
+            <q-tooltip class="bg-white text-primary">Close</q-tooltip>
+          </q-btn>
+        </div>
+
+        <q-card-section>
+          <div class="row">
+            <div class="col-md-6 col-sm-12 q-mx-xl">
+              <h4 class="cursor-pointer">About</h4>
+              <h4 class="cursor-pointer">Blog</h4>
+              <h4 class="cursor-pointer">Programs</h4>
+              <h4 class="cursor-pointer">Opportunities</h4>
+            </div>
+          </div>
+        </q-card-section>
+
+        <q-img
+          src="~assets/pattern.png"
+          fit="contain"
+          class="gt-sm"
+          style="
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            max-width: 700px;
+            width: 100%;
+            height: 429.8px;
+          "
+        ></q-img>
+      </q-card>
+    </q-dialog>
+  </div>
 </template>
 
 <script>
@@ -116,6 +167,8 @@ export default defineComponent({
       toggleLeftDrawer() {
         leftDrawerOpen.value = !leftDrawerOpen.value;
       },
+      dialog: ref(false),
+      maximizedToggle: ref(true),
     };
   },
 });
