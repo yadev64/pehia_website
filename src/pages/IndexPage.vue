@@ -5,7 +5,12 @@
         <div class="absolute-full text-subtitle2 flex flex-center home_bg">
           <div class="row main-row">
             <div class="col-md-6 col-sm-12">
-              <h2 class="q-mb-md"><b>“The Unicorn is About to Take Off”</b></h2>
+              <h2 class="q-mb-md gt-sm">
+                <b>“The Unicorn is About to Take Off”</b>
+              </h2>
+              <h4 class="q-mb-md q-pt-xl lt-md">
+                <b>“The Unicorn is About to Take Off”</b>
+              </h4>
               <h6 class="q-my-sm" style="font-size: 26px">
                 Come, dive into our world that’ll build you to embrace your
                 tech-dreams and to sprout your wings.
