@@ -2,12 +2,14 @@
   <q-layout view="lHh Lpr lFf">
     <q-header class="bg-transparent">
       <q-toolbar style="position: absolute; top: 0">
-        <q-img
-          class="q-ml-lg"
-          src="~assets/logo.png"
-          style="height: 70px; width: 200px"
-          fit="contain"
-        ></q-img>
+        <router-link to="/">
+          <q-img
+            class="q-ml-lg"
+            src="~assets/logo.png"
+            style="height: 70px; width: 200px"
+            fit="contain"
+          ></q-img>
+        </router-link>
 
         <q-space></q-space>
         <q-btn
@@ -77,7 +79,20 @@
         <q-card-section>
           <div class="row">
             <div class="col-md-6 col-sm-12 q-mx-xl">
-              <h4 class="cursor-pointer">About</h4>
+              <router-link
+                to="/summit2023"
+                v-close-popup
+                style="text-decoration: none"
+              >
+                <h4 class="cursor-pointer text-white">Summit 2023</h4>
+              </router-link>
+              <router-link
+                to="/summit2023"
+                v-close-popup
+                style="text-decoration: none"
+              >
+                <h4 class="cursor-pointer text-white">About</h4>
+              </router-link>
               <h4 class="cursor-pointer">Blog</h4>
               <h4 class="cursor-pointer">Programs</h4>
               <h4 class="cursor-pointer">Opportunities</h4>
