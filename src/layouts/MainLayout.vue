@@ -87,15 +87,29 @@
                 <h4 class="cursor-pointer text-white">Summit 2023</h4>
               </router-link>
               <router-link
-                to="/summit2023"
+                to="/summit2021"
+                v-close-popup
+                style="text-decoration: none"
+              >
+                <h4 class="cursor-pointer text-white">Summit 2021</h4>
+              </router-link>
+              <router-link
+                to="/summit2020"
+                v-close-popup
+                style="text-decoration: none"
+              >
+                <h4 class="cursor-pointer text-white">Summit 2020</h4>
+              </router-link>
+              <router-link
+                to="/about"
                 v-close-popup
                 style="text-decoration: none"
               >
                 <h4 class="cursor-pointer text-white">About</h4>
               </router-link>
-              <h4 class="cursor-pointer">Blog</h4>
+              <!-- <h4 class="cursor-pointer">Blog</h4>
               <h4 class="cursor-pointer">Programs</h4>
-              <h4 class="cursor-pointer">Opportunities</h4>
+              <h4 class="cursor-pointer">Opportunities</h4> -->
             </div>
           </div>
         </q-card-section>
