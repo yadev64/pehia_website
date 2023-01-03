@@ -5,14 +5,25 @@
         <div class="q-pa-lg text-white">
           <h2>Pehia Summit 2023</h2>
           <p style="font-size: 26px">
-            Kerala’s largest conference organized for women, those of the
-            transgender community and other gender minorities in Kerala who love
-            programming.
+            It's time to meet again! Pehia is celebrating our 5th anniversary
+            and what's more exciting than Pehia Summit 2023! We are hosting the
+            latest version of pehia summit on January 26th 2023 at Kerala
+            Startup Mission from 9:00 am.
           </p>
           <div class="row">
-            <q-btn class="bg-primary text-white q-ma-md" label="register">
+            <q-btn
+              class="bg-primary text-white q-ma-md"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScEN3V4_5NMseuvPw6s1K4dK4rWwe9L3Kgt7v38BTWmkabSCA/viewform"
+              target="_blank"
+              label="Register now"
+            >
             </q-btn>
-            <q-btn class="bg-primary text-white q-ma-md" label="View Schedule">
+            <q-btn
+              outline
+              disable
+              class="q-ma-md"
+              label=" Schedule (coming soon)"
+            >
             </q-btn>
           </div>
         </div>
@@ -52,9 +63,11 @@
         <div class="q-pa-lg text-white">
           <!-- <h2>Pehia Summit 2022</h2> -->
           <p style="font-size: 26px">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci
-            pretium nunc magna egestas tortor aenean. Tellus justo, ac nisl,
-            rhoncus felis risus quisque augue feugiat.
+            This year, we are proud to host multiple speakers who have stood up
+            for themselves and celebrated their victories inspiring hundreds and
+            thousands of people. Tune into meet the best people, hear new
+            stories, attend awesome workshops, play games and much more. We are
+            excited, are you?
           </p>
           <!-- <div class="row">
             <q-btn class="bg-primary text-white q-ma-md" label="register">
@@ -68,7 +81,7 @@
     <div class="row" style="width: 100%">
       <h4 style="width: 100%" class="text-white text-center">Speakers</h4>
     </div>
-    <div class="row flex flex-center">
+    <!-- <div class="row flex flex-center">
       <SpeakerCard></SpeakerCard>
       <SpeakerCard></SpeakerCard>
       <SpeakerCard></SpeakerCard>
@@ -77,6 +90,10 @@
       <SpeakerCard></SpeakerCard>
       <SpeakerCard></SpeakerCard>
       <SpeakerCard></SpeakerCard>
+    </div> -->
+
+    <div class="row" style="width: 100%">
+      <h6 style="width: 100%" class="text-white text-center">Coming soon...</h6>
     </div>
 
     <div class="row flex flex-center" style="height: 100vh">
@@ -125,7 +142,7 @@
       <div class="col-md-5 col-sm-12">
         <div class="q-pa-lg text-white">
           <h3>See Y’all there</h3>
-          <p style="font-size: 20px">January 17th 2022</p>
+          <p style="font-size: 20px">January 26th 2023</p>
           <p style="font-size: 20px">
             Kerala Technology Innovation Zone (KTIZ) കേരള ടെക്നോളജി ഇന്നൊവേഷൻ
             സോൺ
@@ -150,7 +167,7 @@
 import SpeakerCard from "app/src/components/SpeakerCard.vue";
 export default {
   components: {
-    SpeakerCard,
+    // SpeakerCard,
   },
   // name: 'PageName',
 };
