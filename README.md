@@ -1,6 +1,8 @@
-# Pehia Website (pehia-website)
+# Pehia Foundation Website
 
-Pehia Foundation
+This is the repo for the development of Pehia Foundation Community website, built on Quasar (Vue3).
+
+https://pehia.netlify.app/#/
 
 ## Install the dependencies
 ```bash
