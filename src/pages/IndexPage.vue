@@ -15,9 +15,10 @@
                 Come, dive into our world that’ll build you to embrace your
                 tech-dreams and to sprout your wings.
               </h6>
-              <q-btn color="primary" @click="alert = true"
+              <q-btn color="primary" class="q-mr-md" @click="alert = true"
                 ><b>Know more</b></q-btn
               >
+              <q-btn color="primary" to="/Summit2023"><b>Summit 2023</b></q-btn>
               <social class="q-mt-md"></social>
             </div>
 
@@ -53,7 +54,7 @@
         class="row"
         style="position: absolute; bottom: 0; left: 0; width: 100%"
       >
-        <div class="col-md-6 gt-sm">
+        <!-- <div class="col-md-6 gt-sm">
           <q-tabs
             v-model="tab"
             inline-label
@@ -83,7 +84,7 @@
               </q-list>
             </q-btn-dropdown>
           </q-tabs>
-        </div>
+        </div> -->
       </div>
     </div>
 
