@@ -30,7 +30,7 @@
       </div>
       <div class="col-md-6 col-sm-12">
         <div>
-          <q-img
+          <!-- <q-img
             src="~assets/Oreti.png"
             fit="contain"
             style="
@@ -39,7 +39,12 @@
               max-height: 429.8px;
               height: 100%;
             "
-          ></q-img>
+          ></q-img> -->
+
+          <q-video
+            :ratio="1920 / 1080"
+            src="https://www.youtube.com/embed/IwabWAuiM5Q"
+          />
         </div>
       </div>
     </div>
@@ -48,7 +53,7 @@
       <div class="col-md-7 col-sm-12">
         <div class="q-ma-xl">
           <q-img
-            src="~assets/summit2.png"
+            src="~assets/Oreti.png"
             fit="contain"
             style="
               max-width: 700px;
