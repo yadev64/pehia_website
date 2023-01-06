@@ -1,31 +1,87 @@
 <template>
   <q-page class="bg-secondary" padding>
-    <div class="row flex flex-center" style="height: 100vh">
-      <div class="col-md-6 col-sm-12">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
         <div class="q-pa-lg text-white">
-          <h2>Pehia Summit 2021</h2>
-          <p style="font-size: 26px">
-            After the whooping success of summit 2020, Pehia relaunched the
-            summit with extra brownies in the year 2021, which opened up doors
-            of technology for yet many people. The aim of the event was to bring
-            together people who are passionate about technology and provide a
-            platform for them to connect and share their insights.Without doubt,
-            it turned out to be yet another tale of new experiences, tech
-            stories, and a bunch of memories to hold on to everyone who were
-            part of the event, be it volunteers, speakers or participants.
-          </p>
+          <h2>Labyrinth</h2>
+          <div class="row">
+            <div class="col-md-6 col-sm-12 q-pa-md">
+              <h4>Introduction</h4>
+              <p style="font-size: 26px">
+                Labyrinth - for the buildThirsty was brought by Pehia Foundation
+                to help to hone the skills and give wings to the ideas that
+                students have. Labyrinth welcomes new experiments and
+                breakthroughs to help undergraduate students to complete their
+                projects.
+              </p>
+            </div>
+            <div class="col-md-6 col-sm-12 q-pa-md">
+              <h4>Objective</h4>
+              <p style="font-size: 26px">
+                Labyrinth aims at supporting student groups with their projects.
+                The nucleus of this program is to ensure the best experience in
+                the project development journey. Labyrinth also accommodates
+                students who have no idea for their projects and inspirit them
+                to create one. The best project will also be awarded.
+              </p>
+            </div>
+          </div>
+
+          <h4>Program Design</h4>
+
+          <div class="row">
+            <div class="col-md-6 col-sm-12 q-pa-md">
+              <p style="font-size: 26px">
+                1. <b>Register as a team or individual</b>
+                The registration for this program can be done as a team or
+                individual. Groups consisting of utmost 4 members are admitted
+                under this program.
+              </p>
+              <p style="font-size: 26px">
+                2. <b>Pair up with your mentors. </b>
+                Pehia provides direct mentorship from industry experts and
+                assistance to publish their works in international journals.
+                Mentors provide the team with insights and suggestions to
+                fine-tune their projects.
+              </p>
+            </div>
+            <div class="col-md-6 col-sm-12 q-pa-md">
+              <p style="font-size: 26px">
+                3. <b>Build your project with your team</b>
+                Labyrinth provides the perfect platform for building a project
+                as a team and is a fringe benefit to add to the resume.
+              </p>
+              <p style="font-size: 26px">
+                4. <b>Get rewarded</b>
+                Pehia awards the best three projects under the program. Students
+                under Labyrinth also receive award of completion and a chance of
+                internship in the industry.
+              </p>
+            </div>
+          </div>
+
           <!-- <div class="row">
             <q-btn class="bg-primary text-white q-ma-md" label="register">
             </q-btn>
             <q-btn class="bg-primary text-white q-ma-md" label="View Schedule">
             </q-btn>
           </div> -->
+
+          <div class="row">
+            <div class="col-md-6 col-sm-12 q-pa-md">
+              <h6>Program Coordinators</h6>
+              <p>- Diya Liza Varghese</p>
+              <p>- Vishnumaya</p>
+              <p>- Shreya Elizabeth</p>
+              <p>- Afrin</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-md-6 col-sm-12">
+      <!-- <div class="col-md-6 col-sm-12">
         <div>
           <q-img
-            src="~assets/summit212.jpg"
+            src="~assets/Oreti.png"
             fit="contain"
             style="
               max-width: 700px;
@@ -35,14 +91,14 @@
             "
           ></q-img>
         </div>
-      </div>
+      </div> -->
     </div>
 
-    <div class="row flex flex-center" style="height: 100vh">
+    <!-- <div class="row flex flex-center" style="height: 100vh">
       <div class="col-md-7 col-sm-12">
         <div class="q-ma-xl">
           <q-img
-            src="~assets/summit21.jpg"
+            src="~assets/Oreti.png"
             fit="contain"
             style="
               max-width: 700px;
@@ -55,27 +111,21 @@
       </div>
       <div class="col-md-5 col-sm-12">
         <div class="q-pa-lg text-white">
-          <!-- <h2>Pehia Summit 2022</h2> -->
           <p style="font-size: 26px">
-            We witnessed the transition of many from nervous novice to confident
-            success stories by getting their hands dirty with code, despite the
-            event being held online. We take pride in the fact that with this
-            initiative we are one step closer to our dream- creating an
-            inclusive society by bridging together the stranded thoughts of
-            disparities. We believe when we wrapped up the summit, celebrating
-            the third year of Pehia, you were able to grab out the best of what
-            you seek. There are miles to go before we reach what we seek.
-            Together let’s go get it!
+            <b> Mission:</b> Pehia works to build relations among students and
+            professionals, thereby helping to bridge the technical skill gap to
+            form a space with the capacity to include everyone and anyone in the
+            field of science and technology without the bias and discrimination
+            in factors viz gender, status, financial ability,etc.
+
+            <b>Vision:</b> To serve and to be a prime ally of inclusivity and
+            bias-free society to create a world where anyone can be free to
+            learn and live up to their freedom.
           </p>
-          <!-- <div class="row">
-            <q-btn class="bg-primary text-white q-ma-md" label="register">
-            </q-btn>
-            <q-btn class="bg-primary text-white q-ma-md" label="View Schedule">
-            </q-btn>
-          </div> -->
+
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- <div class="row" style="width: 100%">
       <h4 style="width: 100%" class="text-white text-center">Speakers</h4>
     </div>

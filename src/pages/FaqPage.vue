@@ -1,31 +1,89 @@
 <template>
   <q-page class="bg-secondary" padding>
-    <div class="row flex flex-center" style="height: 100vh">
-      <div class="col-md-6 col-sm-12">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
         <div class="q-pa-lg text-white">
-          <h2>Pehia Summit 2021</h2>
-          <p style="font-size: 26px">
-            After the whooping success of summit 2020, Pehia relaunched the
-            summit with extra brownies in the year 2021, which opened up doors
-            of technology for yet many people. The aim of the event was to bring
-            together people who are passionate about technology and provide a
-            platform for them to connect and share their insights.Without doubt,
-            it turned out to be yet another tale of new experiences, tech
-            stories, and a bunch of memories to hold on to everyone who were
-            part of the event, be it volunteers, speakers or participants.
-          </p>
+          <h2>FAQs</h2>
+          <!-- <div class="row">
+            <div class="col-md-6 col-sm-12 q-pa-md">
+              <h4>Introduction</h4>
+              <p style="font-size: 26px">
+                K4Kode is an initiative to introduce young minds to STEM
+                concepts and invoke in them the curiosity to learn new
+                technology. Engaging students in STEM activities specially
+                designed for them fosters creativity, out of box thinking, drive
+                to find fresh and innovative solutions to existing challenges
+                faced by various fields, in young people at a very tender age.
+              </p>
+            </div>
+            <div class="col-md-6 col-sm-12 q-pa-md">
+              <h4>Objective</h4>
+              <p style="font-size: 26px">
+                K4Kode aims at instilling STEM concepts in the minds of students
+                since their childhood ensuring that they are able to feed their
+                thoughts and ideas with very essential knowledge from a very
+                young age. Our aim is to make math and science more than just
+                mere subjects but a profound base in the tech journey of
+                aspirants through a series of fun games , activities and much
+                more.
+              </p>
+            </div>
+          </div> -->
+
+          <!-- <h4>Program Design</h4> -->
+
+          <div class="row">
+            <div class="col-md-6 col-sm-12 q-pa-md">
+              <p style="font-size: 26px">
+                1. What do I have to do inorder to join pehia?
+              </p>
+              <p style="font-size: 26px">
+                2. What are the main events conducted by pehia?
+              </p>
+              <p style="font-size: 26px">
+                3. Who is eligible to participate in workshops and events
+                conducted by pehia?
+              </p>
+              <p style="font-size: 26px">
+                4. I’m a high school student. Are there any events in which I
+                can participate?
+              </p>
+            </div>
+            <div class="col-md-6 col-sm-12 q-pa-md">
+              <p style="font-size: 26px">
+                5. I’m a high school student. Are there any events in which I
+                can participate?
+              </p>
+              <p style="font-size: 26px">
+                6. Are the hackathons open to all or is it solely for women?
+              </p>
+
+              <p style="font-size: 26px">
+                7. How can I be a volunteer in Pehia?
+              </p>
+            </div>
+          </div>
+
           <!-- <div class="row">
             <q-btn class="bg-primary text-white q-ma-md" label="register">
             </q-btn>
             <q-btn class="bg-primary text-white q-ma-md" label="View Schedule">
             </q-btn>
           </div> -->
+
+          <!-- <div class="row">
+            <div class="col-md-6 col-sm-12 q-pa-md">
+              <h6>Program Coordinators</h6>
+              <p>- Anusha M R</p>
+              <p>- Ruhi Thomas</p>
+            </div>
+          </div> -->
         </div>
       </div>
-      <div class="col-md-6 col-sm-12">
+      <!-- <div class="col-md-6 col-sm-12">
         <div>
           <q-img
-            src="~assets/summit212.jpg"
+            src="~assets/Oreti.png"
             fit="contain"
             style="
               max-width: 700px;
@@ -35,14 +93,14 @@
             "
           ></q-img>
         </div>
-      </div>
+      </div> -->
     </div>
 
-    <div class="row flex flex-center" style="height: 100vh">
+    <!-- <div class="row flex flex-center" style="height: 100vh">
       <div class="col-md-7 col-sm-12">
         <div class="q-ma-xl">
           <q-img
-            src="~assets/summit21.jpg"
+            src="~assets/Oreti.png"
             fit="contain"
             style="
               max-width: 700px;
@@ -55,27 +113,21 @@
       </div>
       <div class="col-md-5 col-sm-12">
         <div class="q-pa-lg text-white">
-          <!-- <h2>Pehia Summit 2022</h2> -->
           <p style="font-size: 26px">
-            We witnessed the transition of many from nervous novice to confident
-            success stories by getting their hands dirty with code, despite the
-            event being held online. We take pride in the fact that with this
-            initiative we are one step closer to our dream- creating an
-            inclusive society by bridging together the stranded thoughts of
-            disparities. We believe when we wrapped up the summit, celebrating
-            the third year of Pehia, you were able to grab out the best of what
-            you seek. There are miles to go before we reach what we seek.
-            Together let’s go get it!
+            <b> Mission:</b> Pehia works to build relations among students and
+            professionals, thereby helping to bridge the technical skill gap to
+            form a space with the capacity to include everyone and anyone in the
+            field of science and technology without the bias and discrimination
+            in factors viz gender, status, financial ability,etc.
+
+            <b>Vision:</b> To serve and to be a prime ally of inclusivity and
+            bias-free society to create a world where anyone can be free to
+            learn and live up to their freedom.
           </p>
-          <!-- <div class="row">
-            <q-btn class="bg-primary text-white q-ma-md" label="register">
-            </q-btn>
-            <q-btn class="bg-primary text-white q-ma-md" label="View Schedule">
-            </q-btn>
-          </div> -->
+
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- <div class="row" style="width: 100%">
       <h4 style="width: 100%" class="text-white text-center">Speakers</h4>
     </div>
