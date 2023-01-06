@@ -78,7 +78,7 @@
 
         <q-card-section>
           <div class="row">
-            <div class="col-md-6 col-sm-12 q-mx-xl">
+            <div class="col-md-6 col-sm-12 q-px-xl" style="z-index: 10">
               <router-link
                 to="/summit2023"
                 v-close-popup
@@ -107,6 +107,57 @@
               >
                 <h4 class="cursor-pointer text-white">About</h4>
               </router-link>
+              <router-link
+                to="/faq"
+                v-close-popup
+                style="text-decoration: none"
+              >
+                <h4 class="cursor-pointer text-white">FAQ</h4>
+              </router-link>
+              <!-- <h4 class="cursor-pointer">Blog</h4>
+              <h4 class="cursor-pointer">Programs</h4>
+              <h4 class="cursor-pointer">Opportunities</h4> -->
+            </div>
+            <div class="col-md-6 col-sm-12 q-px-xl" style="z-index: 10">
+              <router-link to="/ze" v-close-popup style="text-decoration: none">
+                <h4 class="cursor-pointer text-white">Ze++</h4>
+              </router-link>
+              <router-link
+                to="/p2p"
+                v-close-popup
+                style="text-decoration: none"
+              >
+                <h4 class="cursor-pointer text-white">P2P Learning</h4>
+              </router-link>
+              <router-link
+                to="/opportunities"
+                v-close-popup
+                style="text-decoration: none"
+              >
+                <h4 class="cursor-pointer text-white">Opportunities</h4>
+              </router-link>
+              <router-link
+                to="/labyrinth"
+                v-close-popup
+                style="text-decoration: none"
+              >
+                <h4 class="cursor-pointer text-white">Labyrinth</h4>
+              </router-link>
+              <router-link
+                to="/codein"
+                v-close-popup
+                style="text-decoration: none"
+              >
+                <h4 class="cursor-pointer text-white">CodeIn</h4>
+              </router-link>
+              <router-link
+                to="/k4kode"
+                v-close-popup
+                style="text-decoration: none"
+              >
+                <h4 class="cursor-pointer text-white">K4Kode</h4>
+              </router-link>
+
               <!-- <h4 class="cursor-pointer">Blog</h4>
               <h4 class="cursor-pointer">Programs</h4>
               <h4 class="cursor-pointer">Opportunities</h4> -->
