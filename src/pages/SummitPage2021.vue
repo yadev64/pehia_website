@@ -25,7 +25,7 @@
       <div class="col-md-6 col-sm-12">
         <div>
           <q-img
-            src="~assets/Oreti.png"
+            src="~assets/summit212.jpg"
             fit="contain"
             style="
               max-width: 700px;
@@ -42,7 +42,7 @@
       <div class="col-md-7 col-sm-12">
         <div class="q-ma-xl">
           <q-img
-            src="~assets/summit2.png"
+            src="~assets/summit21.jpg"
             fit="contain"
             style="
               max-width: 700px;
