@@ -7,7 +7,7 @@
           <p style="font-size: 26px">
             It's time to meet again! Pehia is celebrating our 5th anniversary
             and what's more exciting than Pehia Summit 2023! We are hosting the
-            latest version of pehia summit on January 26th 2023 at Kerala
+            latest version of pehia summit on January 28th 2023 at Kerala
             Startup Mission from 9:00 am.
           </p>
           <div class="row">
@@ -147,7 +147,7 @@
       <div class="col-md-5 col-sm-12">
         <div class="q-pa-lg text-white">
           <h3>See Y’all there</h3>
-          <p style="font-size: 20px">January 26th 2023</p>
+          <p style="font-size: 20px">January 28th 2023</p>
           <p style="font-size: 20px">
             Kerala Technology Innovation Zone (KTIZ) കേരള ടെക്നോളജി ഇന്നൊവേഷൻ
             സോൺ
