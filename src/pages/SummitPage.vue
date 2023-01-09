@@ -1,6 +1,6 @@
 <template>
   <q-page class="bg-secondary" padding>
-    <div class="row flex flex-center" style="height: 100vh">
+    <div class="row flex flex-center q-mt-xl">
       <div class="col-md-6 col-sm-12">
         <div class="q-pa-lg text-white">
           <h2>Pehia Summit 2023</h2>
@@ -28,7 +28,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 col-sm-12">
+      <div class="col-md-6 col-sm-12 col-xs-12">
         <div>
           <!-- <q-img
             src="~assets/Oreti.png"
